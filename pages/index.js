@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Footer from './../components/Footer'
 import Links from "../components/Links";
 import Headline from "@/components/Headline";
+import Main from "@/components/Main";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -19,10 +20,8 @@ export default function Home() {
   return (
     <div
     >
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Headline page="index"/>
-        <Links/>
-      </main>
+
+<Main page="index" />
       
       <Footer />
     </div>
