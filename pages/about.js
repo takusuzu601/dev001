@@ -4,6 +4,7 @@ import Footer from './../components/Footer'
 import Links from "../components/Links";
 import Headline from "@/components/Headline";
 import Main from "@/components/Main";
+import Header from "@/components/Header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,7 +21,7 @@ export default function Home() {
   return (
     <div
     >
-
+<Header/>
 <Main page="about" />
       
       <Footer />
